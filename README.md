@@ -30,18 +30,20 @@ Mac OSX
          run the .app
 
 Linux    
-         git clone https://github.com/jojoosinga/jatcoin.git
+```git clone https://github.com/jojoosinga/jatcoin.git
          cd jatcoin
          cd src
          make -f makefile.unix
          ./jatcoind
-         
+
+```
 Linux-qt
-         git clone https://github.com/jojoosinga/jatcoin.git
+``` git clone https://github.com/jojoosinga/jatcoin.git
          cd jatcoin
          qmake
          make
          ./jatcoind-qt
+```
 
 License
 -------
