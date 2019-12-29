@@ -5,6 +5,14 @@ Jatcoin integration/staging tree
 Copyright (c) 2009-2014 Bitcoin Developers
 Copyright (c) 2019-2020 Jatcoin Developers
 
+
+
+Info
+---------------
+
+This is the first node 64.225.64.154
+and the block explorer http://167.71.73.163:3001/
+
 What is Jatcoin?
 ----------------
 
