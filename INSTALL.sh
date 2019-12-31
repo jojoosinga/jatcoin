@@ -23,6 +23,12 @@ sudo apt-get install libqt5gui5 libqt5core5a libqt5dbus5 qttools5-dev qttools5-d
  
 sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler -y
 
+sudo fallocate -l 2G /swapfile
+sudo chmod 600 /swapfile
+sudo mkswap /swapfile
+sudo swapon /swapfile
+sudo swapon --show
+
 cd src/leveldb
 chmod +x build_detect_platform
 make clean
